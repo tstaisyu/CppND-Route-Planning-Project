@@ -1,4 +1,4 @@
-(This repository is for my learning.)
+(This repository is cloned from https://github.com/udacity/CppND-Route-Planning-Project.)
 
 # Route Planning Project
 
