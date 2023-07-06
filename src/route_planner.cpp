@@ -66,6 +66,9 @@ RouteModel::Node *RoutePlanner::NextNode() {
     return lowest;
 }
 
+// Here is alternative suggestion:
+// sort(open_list.begin(), open_list.end(), [](const RouteModel::Node *a, const RouteModel::Node *b) { return (a->h_value + a->g_value) > (b->h_value + b->g_value); });
+
 
 // TODO 6: Complete the ConstructFinalPath method to return the final path found from your A* search.
 // Tips:
